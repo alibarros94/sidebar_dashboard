@@ -15,7 +15,7 @@ const SidebarLink = styled(Link)`
   transition: all .3s ease-in-out;
 
   &:hover {
-    background: #fff5f1;
+    background: #525252;
     border-left: 8px solid yellow;
     cursor: pointer;
     color: #ff905c;
