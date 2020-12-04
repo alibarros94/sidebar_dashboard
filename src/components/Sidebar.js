@@ -6,6 +6,7 @@ import * as AiIcons from 'react-icons/ai';
 import { SidebarData } from './SidebarData';
 import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
+import logo from '../images/logo_fff.png';
 
 const Nav = styled.div`
   background: #ff905c;
@@ -17,7 +18,7 @@ const Nav = styled.div`
 
 const NavIcon = styled(Link)`
   margin-left: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   height: 60px;
   display: flex;
   justify-content: flex-start;
@@ -53,6 +54,10 @@ const Sidebar = () => {
           <NavIcon to='#'>
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
+          <span className={"logo_name"}>
+            <img src={logo} />
+          </span>
+          
         </Nav>
         </IconContext.Provider>
         <SidebarNav sidebar={sidebar}>
