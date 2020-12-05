@@ -55,7 +55,7 @@ const Sidebar = () => {
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
           <div className={"logo_name"}>
-            <img src={logo} alt={"Parlacom"} />
+            <img src={logo} alt="Logo" />
           </div>
           
         </Nav>
