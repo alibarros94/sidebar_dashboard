@@ -6,7 +6,7 @@ import * as AiIcons from 'react-icons/ai';
 import { SidebarData } from './SidebarData';
 import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
-import logo from '../images/logo_fff.png';
+// import logo_fff from '../images/logo_fff.png';
 
 const Nav = styled.div`
   background: #ff905c;
@@ -54,9 +54,9 @@ const Sidebar = () => {
           <NavIcon to='#'>
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
-          <div className={"logo_name"}>
-            <img src={logo} alt="" />
-          </div>
+          {/* <div className={"logo_name"}>
+            <img src={logo_fff} alt=""w />
+          </div> */}
           
         </Nav>
         </IconContext.Provider>
